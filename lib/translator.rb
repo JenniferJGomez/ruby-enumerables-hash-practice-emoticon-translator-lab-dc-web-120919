@@ -2,6 +2,8 @@ require 'yaml'
 
 def load_library(file)
  emotes = YAML.load_file(file)
+ emo_hash = {}
+ mean_hash = {}
 end
 
 def get_japanese_emoticon
