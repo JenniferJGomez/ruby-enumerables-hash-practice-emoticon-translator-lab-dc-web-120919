@@ -16,7 +16,7 @@ def load_library(file)
   
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file, emote)
   hash = load_library(file)
   if !!hash[:get_emoticon][emote] == true
     hash[:get_emoticon][emote]
